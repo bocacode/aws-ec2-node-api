@@ -8,4 +8,4 @@ app.use(express.json())
 
 app.listen('4040', () => console.log('listening on port 4040'))
 
-app.get('/', (req, res) => res.send('Api working 😎'))
+app.get('/', (req, res) => res.json('Api working 😎'))
